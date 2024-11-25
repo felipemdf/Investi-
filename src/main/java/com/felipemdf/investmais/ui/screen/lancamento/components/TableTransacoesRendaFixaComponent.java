@@ -31,7 +31,7 @@ public class TableTransacoesRendaFixaComponent extends javax.swing.JPanel {
         scrollPaneTable = new javax.swing.JScrollPane();
         table = new javax.swing.JTable();
 
-        setPreferredSize(new java.awt.Dimension(1280, 720));
+        setPreferredSize(new java.awt.Dimension(1280, 243));
         setRequestFocusEnabled(false);
 
         scrollPaneTable.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
@@ -82,11 +82,11 @@ public class TableTransacoesRendaFixaComponent extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(scrollPaneTable, javax.swing.GroupLayout.DEFAULT_SIZE, 1280, Short.MAX_VALUE)
+            .addComponent(scrollPaneTable)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(scrollPaneTable, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+            .addComponent(scrollPaneTable, javax.swing.GroupLayout.DEFAULT_SIZE, 243, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
