@@ -4,6 +4,7 @@
  */
 package com.felipemdf.investmais.ui;
 
+import com.felipemdf.investmais.ui.screen.ativo.AtivoPanel;
 import com.felipemdf.investmais.ui.screen.lancamento.LancamentoPanel;
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
@@ -25,6 +26,7 @@ public class InvestMaisFrame extends javax.swing.JFrame {
         
         setup();
         
+        tabbedPane.add("Ativos", new AtivoPanel());
         tabbedPane.add("Lançamentos", new LancamentoPanel());
         
     }
@@ -106,7 +108,7 @@ public class InvestMaisFrame extends javax.swing.JFrame {
                 .addGroup(panelHeaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(labelVariacao)
                     .addComponent(variacao))
-                .addContainerGap(1292, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         panelHeaderLayout.setVerticalGroup(
             panelHeaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -140,7 +142,7 @@ public class InvestMaisFrame extends javax.swing.JFrame {
             .addComponent(panelHeader, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(tabbedPane)
+                .addComponent(tabbedPane, javax.swing.GroupLayout.DEFAULT_SIZE, 1783, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -148,8 +150,8 @@ public class InvestMaisFrame extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(panelHeader, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(tabbedPane, javax.swing.GroupLayout.DEFAULT_SIZE, 1349, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(tabbedPane, javax.swing.GroupLayout.DEFAULT_SIZE, 870, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
