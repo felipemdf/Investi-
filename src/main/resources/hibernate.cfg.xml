@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Conexão JDBC -->
+        <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
+        <property name="hibernate.connection.url">jdbc:sqlite:investimais.db</property> 
+        <property name = "hibernate.dialect">org.hibernate.dialect.SQLiteDialect</property>
+
+        <!-- Configuração básica do Hibernate -->
+        <property name="hibernate.hbm2ddl.auto">update</property> <!-- Use "update" para atualizar automaticamente o banco -->
+        <property name="hibernate.show_sql">true</property> <!-- Exibe as consultas SQL no console -->
+        <property name="hibernate.format_sql">true</property> <!-- Formata as consultas SQL -->
+        
+        <!-- Gerenciamento da transação -->
+        <property name="hibernate.transaction.coordinator_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+
+        <!-- Desabilitar cache de segundo nível -->
+        <property name="hibernate.cache.use_second_level_cache">false</property>
+        
+        <mapping class="com.felipemdf.investmais.core.model.Carteira"/>
+        <mapping class="com.felipemdf.investmais.core.model.Balanceamento"/>
+        <mapping class="com.felipemdf.investmais.core.model.Ativo"/>
+        <mapping class="com.felipemdf.investmais.core.model.Lancamento"/>
+    </session-factory>
+</hibernate-configuration>

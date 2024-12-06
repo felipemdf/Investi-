@@ -5,27 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7038b3b8-a2ed-4dad-80f8-986454d4aeb4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/InvestMais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/InvestMais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/InvestMaisFrame.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/InvestMaisFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/ativo/AtivoPanel.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/ativo/AtivoPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/ativo/components/TableAtivosRendaFixaComponent.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/ativo/components/TableAtivosRendaFixaComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/ativo/components/TableAtivosRendaVariavelComponent.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/ativo/components/TableAtivosRendaVariavelComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/ativo/components/TableAtivosTesouroDiretoComponent.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/ativo/components/TableAtivosTesouroDiretoComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/configuracao/ConfiguracaoPanel.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/configuracao/ConfiguracaoPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/lancamento/LancamentoPanel.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/lancamento/LancamentoPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/lancamento/components/TableTransacoesRendaFixaComponent.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/lancamento/components/TableTransacoesRendaFixaComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/lancamento/components/TableTransacoesRendaVariavelComponent.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/lancamento/components/TableTransacoesRendaVariavelComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/lancamento/components/TableTransacoesTesouroDiretoComponent.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/screen/lancamento/components/TableTransacoesTesouroDiretoComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/config/DatabaseConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/enums/TipoAtivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/enums/TipoLancamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/service/lancamento/LancamentoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/service/lancamento/bean/LancamentoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/InvestiMaisWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/utils/ContentLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/utils/FormBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/utils/GridBagBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/view/ativo/AtivoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/view/ativo/components/ExpandableTableComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/view/configuracao/ConfiguracaoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/view/lancamento/LancamentoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/view/lancamento/components/LancamentoComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/view/lancamento/dialog/CadastroLancamentoDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/felipemdf/investmais/ui/view/lancamento/dialog/CadastroLancamentoDialogBeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/script/script.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "beta",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/repositorio github/InvestiMais",
     "settings.editor.selected.configurable": "preferences.pluginManager"
